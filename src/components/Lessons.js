@@ -79,7 +79,7 @@ export default function Lessons() {
       query={graphql`
         query LessonsQuery {
           allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
+            sort: { order: ASC, fields: frontmatter___lesson_number }
             filter: { frontmatter: { templateKey: { eq: "seo-lesson" } } }
           ) {
             edges {
