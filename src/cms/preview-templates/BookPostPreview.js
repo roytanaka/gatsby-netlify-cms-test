@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { SeoLessonTemplate } from '../../templates/seo-lesson'
+import { BookPostTemplate } from '../../templates/book-post'
 
-const LessonPostPreview = ({ entry, widgetFor }) => {
+const BookPostPreview = ({ entry, widgetFor }) => {
   const tags = entry.getIn(['data', 'tags'])
   return (
-    <SeoLessonTemplate
+    <BookPostTemplate
       content={widgetFor('body')}
       description={entry.getIn(['data', 'description'])}
       tags={tags && tags.toJS()}
@@ -14,11 +14,11 @@ const LessonPostPreview = ({ entry, widgetFor }) => {
   )
 }
 
-LessonPostPreview.propTypes = {
+BookPostPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default LessonPostPreview
+export default BookPostPreview
