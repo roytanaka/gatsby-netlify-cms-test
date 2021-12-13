@@ -1,11 +1,12 @@
 ---
-templateKey: 'seo-lesson'
-title: 'Introduction to SEO – Lesson 1'
+templateKey: seo-lesson
+title: Introduction to SEO – Lesson 1
 date: 2021-12-12T15:04:10.000Z
+description: Lesson 1 blah blah blah.
+lesson_number: 1
 featuredpost: true
-description: >-
-  Lesson 1 blah blah blah.
-tags:
+featuredimage: /img/coffee.png
+tags: null
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et efficitur nisl. In vel porttitor tortor, vitae convallis est. Donec finibus odio sed orci tincidunt rutrum non non elit. Pellentesque ac tellus non eros venenatis commodo. Aenean et tempus nisi. Fusce vitae magna rutrum, maximus dui non, lacinia felis. Cras volutpat sapien tellus, bibendum rhoncus risus aliquet sit amet. Mauris auctor vehicula risus volutpat porta. Morbi felis nisl, commodo ac neque nec, maximus porttitor est. Praesent non auctor ante. Fusce bibendum id diam at rhoncus.
